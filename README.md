@@ -21,22 +21,6 @@ El avance visual original fue creado a partir de una plantilla de Framer y perso
 - Secciones informativas y preguntas frecuentes.
 - Formulario con validación básica en el navegador.
 
-## Estructura
-```
-.
-├── index.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── main.js
-├── assets/
-│   └── jamec-mark.svg
-└── project-info.md
-```
-
-## Ejecutar localmente
-Abre `index.html` en un navegador o utiliza Live Server desde Visual Studio Code.
-
 ## Estado del proyecto
 **En desarrollo.** El formulario es actualmente una demostración y no envía ni almacena datos. Quedan pendientes la conexión con el flujo de Google Sheets / Apps Script, la confirmación de los datos oficiales de contacto y la incorporación de fotografías reales autorizadas.
 

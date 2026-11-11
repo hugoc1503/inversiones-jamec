@@ -1,30 +1,48 @@
 # Inversiones JAMEC — Sitio web
 
-Proyecto de portafolio en desarrollo. Esta primera versión documenta el trabajo de personalización realizado en Framer y la reconstrucción independiente con HTML, CSS y JavaScript.
+Sitio web empresarial en desarrollo para presentar servicios de pintura, acabados y mantenimiento de inmuebles.
 
-- **Demo original en Framer:** https://clear-hyacinth-933919.framer.app
-- **Estado:** en desarrollo
-- **Origen del diseño:** plantilla de Framer personalizada; la versión de código es una reconstrucción propia para fines de aprendizaje y portafolio.
+## Demostraciones
+- **Diseño original personalizado en Framer:** https://clear-hyacinth-933919.framer.app
+- **Versión HTML/CSS/JavaScript:** se publica desde este repositorio con GitHub Pages cuando se active el despliegue.
 
-## Objetivo
-Presentar los servicios de pintura, acabados y mantenimiento de inmuebles de Inversiones JAMEC mediante una experiencia web clara, adaptable a móviles y orientada a facilitar consultas.
+## Sobre el proyecto
+El avance visual original fue creado a partir de una plantilla de Framer y personalizado. En paralelo, este repositorio contiene una reconstrucción independiente programada con HTML, CSS y JavaScript para documentar y demostrar el trabajo de desarrollo web.
 
-## Tecnologías de la versión de código
-- HTML5
-- CSS3
+## Tecnologías
+- HTML5 semántico
+- CSS3 (diseño responsive, variables y componentes)
 - JavaScript (ES6)
+- Git y GitHub
 
-## Estado y alcance
-La versión estática inicial incluye presentación, servicios, proceso de trabajo, proyectos de muestra y formulario de contacto de demostración. El formulario todavía no envía datos a un servidor ni a Google Sheets; esa integración queda pendiente de conectar y probar.
+## Funcionalidades incluidas
+- Navegación adaptable a móviles.
+- Presentación de servicios y proceso de trabajo.
+- Secciones informativas y preguntas frecuentes.
+- Formulario con validación básica en el navegador.
 
-## Ejecución local
-Abre `index.html` en un navegador o utiliza la extensión Live Server de Visual Studio Code.
+## Estructura
+```
+.
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+├── assets/
+│   └── jamec-mark.svg
+└── project-info.md
+```
 
-## Próximas mejoras
-- Incorporar fotografías y proyectos reales autorizados.
-- Completar los datos oficiales de contacto y redes sociales.
-- Conectar el formulario a un backend o Google Apps Script y probar el flujo de extremo a extremo.
-- Revisar accesibilidad, SEO y rendimiento.
+## Ejecutar localmente
+Abre `index.html` en un navegador o utiliza Live Server desde Visual Studio Code.
 
-## Créditos
-La página Framer enlazada es el avance visual original creado a partir de una plantilla y personalizado por el autor. La implementación HTML/CSS/JS de este repositorio es una reconstrucción independiente, no una exportación automática de Framer.
+## Estado del proyecto
+**En desarrollo.** El formulario es actualmente una demostración y no envía ni almacena datos. Quedan pendientes la conexión con el flujo de Google Sheets / Apps Script, la confirmación de los datos oficiales de contacto y la incorporación de fotografías reales autorizadas.
+
+Las composiciones visuales de la galería son ilustrativas, no se presentan como obras ejecutadas por la empresa.
+
+## Transparencia
+La implementación de este repositorio es una reconstrucción independiente inspirada en el objetivo del proyecto de Framer; no es una exportación automática de Framer. La plantilla original se está personalizando por separado.
+
+Consulta [project-info.md](project-info.md) para ver el alcance y las próximas mejoras.

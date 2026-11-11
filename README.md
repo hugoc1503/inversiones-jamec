@@ -4,7 +4,7 @@ Sitio web empresarial en desarrollo para presentar servicios de pintura, acabado
 
 ## Demostraciones
 - **Diseño original personalizado en Framer:** https://clear-hyacinth-933919.framer.app
-- **Versión HTML/CSS/JavaScript:** se publica desde este repositorio con GitHub Pages cuando se active el despliegue.
+- **Versión HTML/CSS/JavaScript**
 
 ## Sobre el proyecto
 El avance visual original fue creado a partir de una plantilla de Framer y personalizado. En paralelo, este repositorio contiene una reconstrucción independiente programada con HTML, CSS y JavaScript para documentar y demostrar el trabajo de desarrollo web.
@@ -44,5 +44,3 @@ Las composiciones visuales de la galería son ilustrativas, no se presentan como
 
 ## Transparencia
 La implementación de este repositorio es una reconstrucción independiente inspirada en el objetivo del proyecto de Framer; no es una exportación automática de Framer. La plantilla original se está personalizando por separado.
-
-Consulta [project-info.md](project-info.md) para ver el alcance y las próximas mejoras.
